@@ -7,7 +7,7 @@ Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro.
  */
 
 
-//richiamo e inizializzo la classe dove inserirò i quadratini(square)
+//richiamo e inizializzo la classe, ossia il container, dove poi andrò a costruire i quadratini(square)
 const container =document.querySelector('.container');
 console.log('ho richiamato:', container);
 
@@ -33,3 +33,4 @@ for(let i = 0; i < 100; i++){
 //   container.append(sq);
 //   console.log(sq);
 // }
+
