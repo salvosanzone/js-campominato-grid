@@ -6,3 +6,16 @@ con difficoltà 3 => tra 1 e 49
 Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro.
  */
 
+
+//richiamo e inizializzo la classe dove inserirò i quadratini(square)
+const container =document.querySelector('.container');
+console.log('ho richiamato:', container);
+
+
+//costruisco gli square utilizzando un ciclo for (level:easy)
+for(let i = 0; i < 100; i++){
+  const sq = document.createElement('div');
+  sq.className = ('square');
+  container.append(sq);
+  console.log(sq);
+}
