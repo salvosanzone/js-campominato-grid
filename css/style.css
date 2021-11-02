@@ -55,10 +55,23 @@ main{
 }
 
 main .container{
+  display: flex;
   width: 350px;
   height: 350px;
   border: 1px solid black;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  
 }
+
+.container .square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 8);
+  height: calc(100% / 8);
+  border: 1px solid black;
+
 
 footer{
   display: flex;
