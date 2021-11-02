@@ -64,12 +64,28 @@ main .container{
   
 }
 
-.container .square{
+.container .square-easy-level{
   display: flex;
   justify-content: center;
   align-items: center;
   width: calc(100% / 10);
   height: calc(100% / 10);
+  border: 1px solid black;
+}
+.container .square-hard-level{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+  border: 1px solid black;
+}
+.container .square-crazy-level{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 7);
+  height: calc(100% / 7);
   border: 1px solid black;
 }
 

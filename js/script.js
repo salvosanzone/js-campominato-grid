@@ -15,7 +15,21 @@ console.log('ho richiamato:', container);
 //costruisco gli square utilizzando un ciclo for (level:easy)
 for(let i = 0; i < 100; i++){
   const sq = document.createElement('div');
-  sq.className = ('square');
+  sq.className = ('square-easy-level');
   container.append(sq);
-  console.log(sq);
+  console.log('elemento creato', sq);
 }
+//costruisco gli square utilizzando un ciclo for (level:hard)
+// for(let i = 0; i < 81; i++){
+//   const sq = document.createElement('div');
+//   sq.className = ('square-hard-level');
+//   container.append(sq);
+//   console.log(sq);
+// }
+//costruisco gli square utilizzando un ciclo for (level:crazy)
+// for(let i = 0; i < 49; i++){
+//   const sq = document.createElement('div');
+//   sq.className = ('square-crazy-level');
+//   container.append(sq);
+//   console.log(sq);
+// }
