@@ -35,10 +35,13 @@ for(let i = 0; i < 100; i++){
 // }
 
 //richiamo il selettore (selector) e lo inizializzo
-const selector =document.querySelector('.selector-difficulty');
+const selector =document.getElementById('selector');
 
 //creo l'evento click
-selector.addEventListener('click', function(){
-  console.log('ho cliccato selector-difficulty',selector);
+selector.addEventListener('change', function(){
+  console.log('ho cliccato',selector);
   const options = selector.querySelectorAll('option');
+  options = 
+
+  //devo inserire il ciclo for in riferimento al value scelto
 })
