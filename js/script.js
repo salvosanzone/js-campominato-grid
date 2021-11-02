@@ -34,3 +34,11 @@ for(let i = 0; i < 100; i++){
 //   console.log(sq);
 // }
 
+//richiamo il selettore (selector) e lo inizializzo
+const selector =document.querySelector('.selector-difficulty');
+
+//creo l'evento click
+selector.addEventListener('click', function(){
+  console.log('ho cliccato selector-difficulty',selector);
+  const options = selector.querySelectorAll('option');
+})

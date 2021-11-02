@@ -42,8 +42,8 @@ header .menu {
   margin: 0 10px;
 }
 select{
-  padding: 0 30px;
-  background-color: #e9e9ed;
+  padding: 0 70px 0 0;
+  background-color: #eaeaec;
   text-decoration: none;
   border-radius: 2px;
 }
