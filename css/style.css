@@ -38,9 +38,16 @@ header .menu {
   width: 100%;
 }
 
-.menu-right .selector-difficult {
+.menu-right .selector-difficulty {
   margin: 0 10px;
 }
+select{
+  padding: 0 30px;
+  background-color: #e9e9ed;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
 .menu-right .button {
   padding: 0 20px;
   cursor: pointer;
