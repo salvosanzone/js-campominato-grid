@@ -47,8 +47,7 @@ select{
   text-decoration: none;
   border-radius: 2px;
 }
-
-.menu-right .button {
+#play {
   padding: 0 20px;
   cursor: pointer;
 }
@@ -61,33 +60,20 @@ main {
   background-color: #7efed4;
 }
 
-main .container {
-  display: flex;
-  width: 350px;
-  height: 350px;
-  border: 1px solid black;
-  flex-wrap: wrap;
-  align-content: flex-start;
+.container { /*classe che vado a richiamare su js con classname*/
+  width: 500px;
+  height: 500px;
+  
 }
-.container .square-easy-level,
-.square-hard-level,
-.square-crazy-level {
+h2{
+  font-size: 15px;
+}
+.square { /*classe che vado a richiamare su js con classname*/
+  float: left; //per mettere le celle accanto
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-}
-.square-easy-level {
-  width: calc(100% / 10);
-  height: calc(100% / 10);
-}
-.square-hard-level {
-  width: calc(100% / 9);
-  height: calc(100% / 9);
-}
-.square-crazy-level {
-  width: calc(100% / 7);
-  height: calc(100% / 7);
 }
 
 footer {
