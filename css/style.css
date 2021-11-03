@@ -74,6 +74,11 @@ h2{
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+  cursor: pointer;
+  
+}
+.square.blu{
+  background-color: cornflowerblue;
 }
 
 footer {
@@ -81,3 +86,6 @@ footer {
   justify-content: start;
   padding: 10px 130px;
 }
+
+
+
